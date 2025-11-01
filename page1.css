@@ -1,0 +1,499 @@
+
+body{
+    font-family: "Roboto", sans-serif;
+    background-image: url('images/paris.webp'); 
+    opacity: 100%;
+    border-radius: 20px;
+}
+
+.class1{
+    display: flex;
+    flex-direction: column; 
+}
+
+#logo{
+    width: 150px;
+    height: 150px;
+    border-radius: 60%;
+}
+
+.bouton{
+    border: 2px solid gray;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px;
+    background-color: rgba(166,205,137,1); 
+}
+
+.bouton:hover{
+    background-color:red;
+}
+
+.class2{
+    text-decoration: none;
+    color:black;
+}
+
+h1{
+    margin-top: 30px;      
+}
+
+nav{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   padding-left: 30px;
+   padding-right: 30px;
+   padding-top: 30px;
+}
+
+a{
+    text-decoration: none;
+    color:rgb(179,140,56);
+    font-size: 1.2em;
+}
+
+.class3{
+    width: 100px;
+    border: 2px solid #B38C38;
+    border-radius: 20px;
+    height:120px;
+}
+
+.secteur1{
+    display: flex;
+    flex-direction: row;
+}
+
+.class4{
+    padding-left: 5px;  
+}
+
+.secteur2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+figcaption{
+    text-align: center;
+}
+
+
+.class5{
+    width: 300px;
+    height: 350px;
+    border-radius: 20px;
+    border: 2px solid #B38C38;
+}
+
+.class6{
+    width: 300px;
+    height: 350px;
+    border-radius: 20px;
+    border: 2px solid #B38C38;
+}
+
+.class7{
+    width: 300px;
+    border-radius: 20px;
+    height: 350px;
+    border: 2px solid #B38C38;
+}
+
+.class8{
+    width: 300px;
+    border-radius: 20px;
+    height: 350px;
+    border: 2px solid #B38C38;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid #B38C38;
+    background-color: #B38C38;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+.class9{
+    display: flex;
+}
+
+.class11{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.img1{
+    width: 20px;
+    height: 20px;
+    padding-right: 10px;
+}
+
+.img2{
+    width: 20px;
+    height: 20px;
+}
+
+.img3{
+    width: 20px;
+    height: 20px;
+}
+
+.img4{
+    width: 20px;
+    height: 20px;
+}
+
+.faq,span,.cont,.num,.class10,.sui{
+    color: white;
+}
+
+
+
+/* MEDIA QUERRIES PAGE 1 MOBILE*/
+
+@media screen and (max-width: 480px){
+          body{
+            font-family: "Roboto", sans-serif;
+            background-image: none;
+            background-color: beige;
+            border-radius: 20px;
+            border:2px solid #B38C38;
+          }
+
+          .class1{
+            display: flex;
+            flex-direction: column;
+          }
+
+          #logo{
+             display: none;  
+          }
+
+          .bouton{
+             border: 2px solid gray;
+             border-radius: 20px;
+             background-color: rgba(166,205,137,1);
+               
+           }
+
+           .bouton:hover{
+             background-color:red;
+           }
+
+          .class2{
+             text-decoration: none;
+             color:black;
+            
+           }
+
+           h1{
+             text-align: center;
+             padding-top: 15px;
+             font-size: 1em;
+             padding-bottom: 15px;
+            }
+
+            nav{
+              display: flex;
+              flex-direction: column;
+            }
+
+            a{
+              text-decoration: none;
+              color:rgb(179,140,56);
+              font-size: 0.8em;
+              text-align: center;
+            }
+
+            .class3{
+               display: none;
+             }
+
+            .cap{
+              display: none;
+            }
+            #Festival{
+                text-align: center;
+                font-size: 1em;
+            }
+
+            #Films{
+                text-align: center;
+                font-size: 1em;
+            }
+
+
+           .secteur1{
+                display: flex;
+                flex-direction: column;
+            }
+
+           .class4{
+                padding-left: 5px;
+                font-size: 0.6em;
+                text-align: center;  
+            }
+
+           .secteur2{
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+            }
+
+
+    
+
+
+            .class5{
+                width: 150px;
+                height: 200px;
+                border-radius: 20px;
+                border: 2px solid #B38C38;
+            }
+
+            .class6{
+                width: 150px;
+                height: 200px;
+                border-radius: 20px;
+                border: 2px solid #B38C38;
+            }
+
+            .class7{
+                   width: 150px;
+                   border-radius: 20px;
+                   height: 200px;
+                   border: 2px solid #B38C38;
+            }
+
+            .class8{
+                   width: 150px;
+                   border-radius: 20px;
+                   height: 200px;
+                   border: 2px solid #B38C38;
+            }
+
+            footer{
+                   display: flex;
+                   flex-direction: column;
+                   border: 2px solid #B38C38;
+                   background-color: #B38C38;
+                   border-radius: 20px;
+                   padding-left: 20px;
+                   margin-left: 15px;
+                   margin-right: 15px;
+                   margin-bottom: 15px;
+                   
+            }
+
+            .class9{
+                  display: flex;
+            }
+
+            .class11{
+                  display: flex;
+                  justify-content: space-around;
+                  
+            }
+
+            .img1{
+                  width: 15px;
+                  height: 15px;
+                  
+            }
+
+            .img2{
+               width: 15px;
+               height: 15px;
+            }
+
+            .img3{
+                width: 15px;
+                height: 15px;
+                 }
+
+           .img4{
+               width: 15px;
+               height: 15px;
+            }
+
+            .faq,span,.cont,.num,.class10,.sui{
+               color: white;
+               font-size: 0.6em;
+            }
+
+}
+    
+
+
+/*MEDIA QUERRIES PAGE 1 TABLETTE*/
+@media screen and (min-width:768px) {
+    
+
+ body{
+    font-family: "Roboto", sans-serif;
+    background-image: url('images/paris.webp'); 
+    opacity: 100%;
+    border-radius: 20px;
+ }
+
+ .class1{
+    display: flex;
+    flex-direction: column;
+ }
+
+ #logo{
+    width: 150px;
+    height: 150px;
+    border-radius: 60%;
+ }
+
+ .bouton{
+    border: 2px solid gray;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px;
+    background-color: rgba(166,205,137,1);  
+ }
+
+ .bouton:hover{
+    background-color:red;
+ }
+
+ .class2{
+    text-decoration: none;
+    color:black;
+ }
+
+ h1{
+    padding-bottom: 30px;   
+ }
+
+ nav{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   padding-left: 30px;
+   padding-right: 30px;
+   padding-top: 30px;
+ }
+
+ a{
+    text-decoration: none;
+    color:rgb(179,140,56);
+    font-size: 1.2em;
+ }
+
+ .class3{
+    width: 100px;
+    border: 2px solid #B38C38;
+    border-radius: 20px;
+    height:120px;
+ }
+
+ .secteur1{
+    display: flex;
+    flex-direction: row;
+ }
+
+ .class4{
+    padding-left: 5px;  
+ }
+
+ .secteur2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 50px;
+    margin-right: 50px;
+ }
+
+ figcaption{
+    text-align: center;
+ }
+
+
+ .class5{
+    width: 300px;
+    height: 350px;
+    border-radius: 20px;
+    border: 2px solid #B38C38;
+ }
+
+ .class6{
+    width: 300px;
+    height: 350px;
+    border-radius: 20px;
+    border: 2px solid #B38C38;
+}
+
+ .class7{
+    width: 300px;
+    border-radius: 20px;
+    height: 350px;
+    border: 2px solid #B38C38;
+ }
+
+ .class8{
+    width: 300px;
+    border-radius: 20px;
+    height: 350px;
+    border: 2px solid #B38C38;
+ }
+
+ footer{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid #B38C38;
+    background-color: #B38C38;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 20px;
+ }
+
+ .class9{
+    display: flex;
+ }
+
+ .class11{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+ }
+
+ .img1{
+    width: 20px;
+    height: 20px;
+    padding-right: 10px;
+ }
+
+ .img2{
+    width: 20px;
+    height: 20px;
+ }
+
+ .img3{
+    width: 20px;
+    height: 20px;
+ }
+
+ .img4{
+    width: 20px;
+    height: 20px;
+ }
+
+ .faq,span,.cont,.num,.class10,.sui{
+    color: white;
+    font-size: 0.8em;
+ }
+}

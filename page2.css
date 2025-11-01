@@ -1,0 +1,743 @@
+
+/*body{
+    background-image: url("images/background_page2.jpg");
+    font-family: "Roboto", sans-serif;
+}
+
+.pag1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#Adresseducinéma{
+    font-size: 1em;
+
+}
+
+.pag2{
+    font-size: 1em;
+}
+
+.pag3{
+    border: 2px solid #B38C38;
+    background-color: #B38C38;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-right: 400px;
+    margin-bottom: 10px;
+}
+
+.pag3:hover{
+     background-color: blueviolet;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #B38C38;
+    border-radius: 10px;
+    width: 60%;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    background-color: aliceblue;
+}
+
+
+
+
+.in1{
+    width:200px;
+    border: 2px solid #B38C38;
+    border-radius: 10px;
+    height: 30px;
+}
+
+.in2{
+    width: 400px;
+    border: 2px solid #B38C38;
+    border-radius: 10px;
+    height: 30px;
+}
+
+.in3{
+    width: 200px;
+    border: 2px solid #B38C38;
+    border-radius: 10px;
+    height: 30px;
+}
+
+.in4{
+    width: 100px;
+    border: 2px solid rgba(166,205,137,1);
+    border-radius: 10px;
+    background-color: rgba(166,205,137,1);
+    margin-top: 15px;
+    text-align: center;
+    height: 30px;
+}
+
+
+
+#Actualités{
+    padding-top: 20px;
+    font-size: 1em;
+}
+
+.pag7{
+    border: 2px solid #B38C38;
+    display: flex;
+    flex-direction: row;
+    background-color: aliceblue;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.pag8{
+    width: 200px;
+    height: 150px;
+    border: 2px solid #B38C38;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 40px;
+
+}
+
+.pag9{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 1rem;
+}
+
+.pag10{
+    padding-top: 30px;
+    font-size: 1em;
+    
+}
+
+footer{
+    border: 2px solid #B38C38;
+    background-color: rgba(179,140,56,1);
+    margin-top: 15px;
+    text-align: center;
+    color: white; 
+    display: flex;
+    flex-direction: column;
+    font-size: 0.8em;
+    width: 100%;
+ 
+}
+
+ul{
+   list-style-type: none; 
+   display: flex;
+   justify-content: center;
+
+   
+}
+
+.pag11,.pag12,.pag13{
+    width: 15px;
+    padding: 50px;
+}
+
+/*MEDIA QUERRIES PAGE 2 TEL*/
+
+/*@media screen and (max-width: 480px){
+          body{
+            background-image: none;
+            font-family: "Roboto", sans-serif;
+            border: 2px solid #B38C38;
+        
+            width: 100%;
+          }
+
+         .pag1{
+          display: flex;
+          flex-direction: column-reverse;
+          }
+          .pag2{
+            font-size: 1em;
+            text-align: center;
+          }
+
+         .pag3{
+         border: 2px solid #B38C38;
+         background-color: #B38C38;
+         border-radius: 20px;
+         font-size: 0.8em;
+         }
+         .pag3:hover{
+          background-color: blueviolet;
+         }
+
+
+        form{
+         display: flex;
+         flex-direction: column;
+         width: 90%;
+
+         
+         }
+
+        fieldset{
+         border: 2px solid #B38C38;
+          border-radius: 20px;
+         background-color: aliceblue;
+         width: 90%;
+         
+        }
+
+       .in1{
+        width: 230px;
+        border: 2px solid #B38C38;
+        border-radius: 10px;
+        height: 30px;
+        }
+
+        .in2{
+         width: 230px;
+         border: 2px solid #B38C38;
+         border-radius: 10px;
+         height: 30px;
+        }
+
+        .in3{
+         width: 230px;
+         border: 2px solid #B38C38;
+         border-radius: 10px;
+         height: 30px;
+        }
+
+        .in4{
+         width: 100px;
+         border: 2px solid rgba(166,205,137,1);
+         border-radius: 10px;
+         background-color: rgba(166,205,137,1);
+         margin-top: 15px;
+         text-align: center;
+         height: 30px;
+        }
+
+        #Adresseducinéma{
+            font-size: 1em;
+            text-align: center;
+        }
+
+        .ifra{
+         border: 2px solid #B38C38;
+        width: 100%;
+    
+        }
+        
+        iframe{
+            width:100%;
+        }
+
+        #Actualités{
+        font-size: 1em;
+        margin-bottom: 20px;
+        text-align: center;
+        }
+
+       .pag7{
+        border: 2px solid #B38C38;
+        display: flex;
+        flex-direction: column;
+         background-color: aliceblue;
+        
+        
+        width: 100%;
+    
+        } 
+
+        .pag8{
+         display: none;
+        }
+
+       .pag9{
+         margin-top: 20px;
+         font-size: 0.8em;
+         overflow: scroll;
+        }
+
+         footer{
+         
+         
+         background-color: rgba(179,140,56,1);
+         color: white;
+         font-size: 0.8em;
+         display: flex;
+         flex-direction: column;
+         width: 100%;
+         
+         
+         }
+
+         ul{
+            display: flex;
+            justify-content: center;
+            list-style-type: none;
+
+         }
+
+        
+
+         /* ICONE RESEAUX SOCIAUX FOOTER*/
+
+        /*.pag11,.pag12,.pag13{
+        width: 15px;
+        padding: 15px;
+        
+         }       
+}
+
+/*MEDIA QUERRIES PAGE 2 TABLETTE*/
+
+/*@media screen and(min-width:768px){
+    body{
+    background-image: url("images/background_page2.jpg");
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+ }
+
+ .pag1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+ }
+
+ .pag3{
+    border: 2px solid #B38C38;
+    background-color: #B38C38;
+    border-radius: 20px;
+    margin-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-right: 400px;
+ }
+
+ .pag3:hover{
+     background-color: blueviolet;
+ }
+
+ form{
+    display: flex;
+    flex-direction: column;
+    width:60%;
+    padding-left: 20px;
+    padding-bottom: 20px;
+ }
+
+ 
+ 
+
+ .in1{
+    width:300px;
+    border: 2px solid #B38C38;
+    border-radius: 10px;
+    height: 30px;
+ }
+
+ .in2{
+    width: 300px;
+    border: 2px solid #B38C38;
+    border-radius: 10px;
+    height: 30px;
+ }
+
+ .in3{
+    width: 300px;
+    border: 2px solid #B38C38;
+    border-radius: 10px;
+    height: 30px;
+ }
+
+ .in4{
+    width: 100px;
+    border: 2px solid rgba(166,205,137,1);
+    border-radius: 10px;
+    background-color: rgba(166,205,137,1);
+    margin-top: 15px;
+    text-align: center;
+    height: 30px;
+ }
+
+ 
+
+ #Actualités{
+    padding-top: 20px;
+ }
+
+ .pag7{
+    border: 2px solid #B38C38;
+    display: flex;
+    flex-direction: row;
+    background-color: aliceblue;
+    border-radius: 10px;
+     width: 60%;
+ }
+
+ .pag8{
+    width: 150px;
+    height: 150px;
+    border: 2px solid #B38C38;
+    border-radius: 10px;
+    margin-top: 20px;
+
+ }
+
+ .pag9{
+    margin-top: 10px;
+    
+    font-size:0.6em;
+ }
+
+ footer{
+    border: 2px solid #B38C38;
+    border-radius: 10px;
+    background-color: rgba(179,140,56,1);
+    margin-top: 10px;
+    color: white;
+    width: 60%;
+ }
+
+ ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+ }
+
+ .pag11,.pag12,.pag13{
+    width: 15px;
+    padding: 50px;
+ }
+}*/
+
+
+/* ===========================
+   STYLE GLOBAL PAGE 2
+   =========================== */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("images/background_page2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: "Roboto", sans-serif;
+  color: #222;
+  line-height: 1.5;
+}
+
+/* ===========================
+   SECTIONS PRINCIPALES
+   =========================== */
+.pag1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 2rem;
+  gap: 2rem;
+}
+
+#Adresseducinéma,
+.pag2,
+#Actualités,
+.pag10 {
+  font-size: 1rem;
+  text-align: center;
+}
+
+.pag3 {
+  border: 2px solid #B38C38;
+  background-color: #B38C38;
+  border-radius: 20px;
+  padding: 12px 24px;
+  margin: 1rem auto;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  text-align: center;
+  color: white;
+  font-weight: 500;
+  max-width: 400px;
+}
+
+.pag3:hover {
+  background-color: #8a6c2e;
+  transform: scale(1.03);
+}
+
+/* ===========================
+   FORMULAIRE
+   =========================== */
+form {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #B38C38;
+  border-radius: 10px;
+  width: 60%;
+  padding: 20px;
+  background-color: aliceblue;
+  /*margin: 0 auto;*/
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.in1,
+.in2,
+.in3 {
+  border: 2px solid #B38C38;
+  border-radius: 10px;
+  height: 35px;
+  padding: 0 10px;
+  margin-top: 10px;
+  transition: border-color 0.3s;
+}
+
+.in1:focus,
+.in2:focus,
+.in3:focus {
+  border-color: #8a6c2e;
+  outline: none;
+}
+
+.in4 {
+  width: 120px;
+  border: 2px solid rgba(166,205,137,1);
+  border-radius: 10px;
+  background-color: rgba(166,205,137,1);
+  margin-top: 15px;
+  text-align: center;
+  height: 35px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.in4:hover {
+  background-color: #8bc34a;
+}
+
+.ifra{
+   border: 2px solid #B38C38;
+  display: flex;
+  flex-direction: row;
+  background-color: aliceblue;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 900px;
+  margin: 1rem auto;
+  padding: 1rem;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  gap: 1rem; 
+}
+
+/* ===========================
+   ACTUALITÉS / BLOCS
+   =========================== */
+.pag7 {
+  border: 2px solid #B38C38;
+  display: flex;
+  flex-direction: row;
+  background-color: aliceblue;
+  border-radius: 10px;
+  width: 100%;
+ /* max-width: 900px;*/
+  /*margin: 1rem auto;*/
+  padding: 1rem;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  gap: 1rem;
+}
+
+.pag8 {
+  width: 200px;
+  height: 150px;
+  border: 2px solid #B38C38;
+  border-radius: 10px;
+  margin-top: 10px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.pag9 {
+  font-size: 1rem;
+  padding: 10px;
+  flex: 1;
+}
+
+/* ===========================
+   FOOTER
+   =========================== */
+footer {
+  border: 2px solid #B38C38;
+  background-color: rgba(179,140,56,1);
+  margin-top: 15px;
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-size: 0.8em;
+  width: 100%;
+  padding: 1rem 0;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.pag11,
+.pag12,
+.pag13 {
+  width: 20px;
+  transition: transform 0.3s ease;
+}
+
+.pag11:hover,
+.pag12:hover,
+.pag13:hover {
+  transform: scale(1.2);
+}
+
+/* ===========================
+   MOBILE (≤480px)
+   =========================== */
+@media screen and (max-width: 480px) {
+  body {
+    background-image: none;
+    width: 100%;
+  }
+
+  .pag1 {
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 1rem;
+  }
+
+  .pag2,
+  #Adresseducinéma,
+  #Actualités {
+    text-align: center;
+    font-size: 1em;
+  }
+
+  .pag3 {
+    width: 80%;
+    font-size: 0.9em;
+    margin: 1rem auto;
+  }
+
+  form {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  fieldset {
+    width: 100%;
+    border: 2px solid #B38C38;
+    border-radius: 20px;
+    background-color: aliceblue;
+  }
+
+  .in1,
+  .in2,
+  .in3 {
+    width: 100%;
+  }
+
+  .ifra,
+  iframe {
+    width: 100%;
+  }
+
+  .pag7 {
+    flex-direction: column;
+    align-items: center;
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .pag8 {
+    display: none;
+  }
+
+  .pag9 {
+    font-size: 0.9em;
+    overflow-y: auto;
+    max-height: 200px;
+  }
+
+  footer {
+    font-size: 0.8em;
+    width: 100%;
+    padding: 1rem 0;
+  }
+
+}
+
+/* ===========================
+   TABLETTE (≥768px)
+   =========================== */
+@media screen and (min-width: 768px) {
+  body {
+    background-image: url("images/background_page2.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .pag1 {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem;
+  }
+
+  .pag3 {
+    max-width: 500px;
+    margin: 1rem auto;
+  }
+
+  form {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .in1,
+  .in2,
+  .in3 {
+    width: 80%;
+  }
+
+  .pag7 {
+    flex-direction: row;
+    width: 80%;
+    margin: 1rem auto;
+  }
+
+  .pag8 {
+    width: 150px;
+    height: 150px;
+  }
+
+  .pag9 {
+    font-size: 0.9em;
+  }
+
+  footer {
+    border-radius: 10px;
+    width: 100%;
+  }
+}
+
+
+
