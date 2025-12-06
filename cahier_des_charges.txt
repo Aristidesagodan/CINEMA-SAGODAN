@@ -1,0 +1,210 @@
+Cahier des charges
+Site web – Festival des Films de Plein Air
+1. Présentation du client
+
+Nom de l’association : Les Films de Plein Air
+Organisatrice : Emilie Durand
+Type : Association culturelle
+Événement : Festival de films d’auteur en plein air
+Lieu : Parc de la Butte, Paris
+Dates : Du 1er au 10 juillet
+Horaires : De 18h à minuit
+Accès : Gratuit et ouvert à tous
+Contexte :
+L’association venant d’être créée, elle dispose d’un budget limité et souhaite une solution simple, fiable et économique pour communiquer sur son événement.
+
+2. Objectifs du projet
+
+Créer un site web vitrine permettant de :
+
+Présenter le festival au grand public
+
+Informer sur les films projetés
+
+Diffuser les actualités du festival
+
+Permettre la pré-inscription du public
+
+Offrir une visibilité professionnelle à l’association
+
+3. Cible du site
+
+Grand public
+
+Amateurs de cinéma d’auteur
+
+Habitants de Paris et des environs
+
+Familles, jeunes adultes, cinéphiles
+
+4. Besoins fonctionnels
+4.1 Pages obligatoires
+
+Page d’accueil
+
+Présentation du festival
+
+Dates et lieu
+
+Concept et ambiance
+
+Boutons d’accès rapide : Films / Pré-inscription
+
+Page Films
+
+Liste des films projetés
+
+Pour chaque film :
+
+Titre
+
+Image / affiche
+
+Réalisateur
+
+Brève description
+
+Date de projection
+
+Page Actualités
+
+Articles d’information (annonces, changements, nouveautés)
+
+Classement par date
+
+Page Pré-inscription
+
+Formulaire avec :
+
+Nom
+
+Prénom
+
+Email
+
+Date de projection choisie
+
+Bouton d’envoi
+
+Page Contact (optionnelle)
+
+Email de contact
+
+Informations sur l’association
+
+4.2 Fonctionnalités attendues
+
+Navigation claire entre les pages
+
+Formulaire de pré-inscription (sans traitement backend)
+
+Affichage clair des informations importantes
+
+Design responsive basique (desktop prioritaire)
+
+Site statique en HTML et CSS uniquement
+
+5. Contraintes techniques
+
+Technologies autorisées :
+✅ HTML5
+✅ CSS3
+❌ JavaScript (non requis)
+❌ Backend (non requis)
+
+Site compatible avec les navigateurs récents
+
+Hébergement pris en charge par un service externe
+
+Budget limité
+
+6. Charte graphique (orientations)
+
+Ambiance :
+
+Culturelle
+
+Estivale
+
+Cinéma
+
+Plein air
+
+Couleurs :
+
+Tons sombres pour rappeler le cinéma
+
+Couleurs chaleureuses pour l’aspect estival
+
+Typographie :
+
+Lisible
+
+Moderne
+
+Sans-serif de préférence
+
+Interface :
+
+Claire
+
+Intuitive
+
+Accessible au grand public
+
+7. Nom de domaine & hébergement
+Nom de domaine
+
+Recommandation principale : .org
+
+Alternative : .com
+
+Exemple :
+
+filmspleinair.org
+
+festival-plein-air.org
+
+Hébergement
+
+Solutions recommandées :
+
+GitHub Pages
+
+Netlify
+
+Vercel
+
+➡️ Hébergement gratuit, rapide et sans maintenance pour la cliente.
+
+8. Livrables attendus
+
+Cahier des charges (ce document)
+
+Wireframes des pages
+
+Code source complet :
+
+Fichiers HTML
+
+Feuilles de style CSS
+
+Images et ressources
+
+README du projet
+
+9. Planning prévisionnel (indicatif)
+
+Analyse du besoin : 1 jour
+
+Création des wireframes : 1 jour
+
+Intégration HTML/CSS : 3 à 4 jours
+
+Corrections et validation : 1 jour
+
+10. Conclusion
+
+Ce site permettra à l’association Les Films de Plein Air de disposer d’une présence professionnelle sur Internet, de communiquer efficacement sur son événement et de faciliter l’organisation grâce aux pré-inscriptions.
+
+La solution retenue est volontairement simple, économique et fiable, parfaitement adaptée au contexte associatif et aux objectifs du festival.
