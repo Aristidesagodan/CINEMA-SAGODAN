@@ -1,50 +1,143 @@
-TP - HTML / CSS
+🎬 Festival des Films de Plein Air – Site Web (HTML/CSS)
+📌 Présentation du projet
 
-Compétences travaillées ici :
+Ce projet consiste à réaliser un site web vitrine pour le Festival des Films de Plein Air, organisé par Emilie Durand.
+Le festival se déroule du 1er au 10 juillet, chaque soir de 18h à minuit, au Parc de la Butte à Paris.
 
-1 - Maquetter une application
-2 - Développer une interface utilisateur de type desktop
+L’objectif du site est de :
 
-Outils pratiques
+Présenter le festival et son concept
 
-Créer des wireframes simples :
+Afficher la liste des films projetés
 
-➢ https://balsamiq.com/
-➢ https://www.fi gma.com/fr/
+Permettre la pré-inscription du public
 
-PROJET 
+Partager les actualités du festival
 
-Analysez les besoins de votre client pour son festival de fi lms
+Fournir une présence en ligne cohérente avec une charte graphique simple et adaptée
 
-Objectifs
+Ce site est développé uniquement en HTML et CSS dans sa première version.
 
-● Savoir analyser un cahier des charges
-● Choisir une solution technique adapté e parmi les solutions existantes si cela est pertinent
-● Lister les fonctionnalités demandées par un client
-● Créer une interface utilisateur de type desktop avec HTML et CSS
+🎯 Objectifs pédagogiques
 
-Emilie Durand est l'organisatrice du festival des Films de Plein Air. 
-Elle ambitionne de sélectionner et de projeter des fi lms d'auteur en plein air du 1 au 10 juillet au Parc de la Butte à Paris.
-Les projections de films en plein air reviennent à la mode ! 
-Son association vient juste d'être créée et elle dispose d'un budget limité. 
-Elle a besoin de communiquer en ligne sur son festival, d'annoncer les films projetés et de recueillir les réservations.
+Analyser un cahier des charges
 
-Voici ce qu'elle vous dit : 
-Mon association "Les Films de Plein Air" vient d'obtenir l'autorisation de projeter au parc de la Butte cette année,
-chaque soir du 1 au 10 juillet, de 18 heures à minuit. 
-Je souhaite ainsi faire découvrir des fi lms d'auteur au grand public. 
-J'ai besoin de communiquer sur le festival en amont et j'ai besoin pour cela d'une présence en ligne avec un site web. 
-Sur ce site, pour lequel il faudra défi nir une charte graphique, j'ai besoin notamment de présenter le festival, 
-la liste des fi lms et de communiquer régulièrement sur les dernières actualités du festival. 
-L'accès aux projections sera gratuit et ouvert à tous mais je souhaite que le public puisse se préinscrire pour estimer le nombre de personnes présentes chaque soir. 
-Je souhaite avoir une adresse professionnelle en .com ou en .org : 
-je suis preneuse de conseils sur le meilleur choix pour l'adresse et je ne souhaite pas m'occuper de l'hébergement. 
+Lister et comprendre les besoins fonctionnels d'un client
 
-En tant que développeur, on vous demande de lister les fonctionnalités dont a besoin la cliente et de proposer une solution technique adaptée. 
-Vous devez donc sélectionner la solution qui vous semble la plus à même de répondre à son besoin :
-quels outils utiliser, etc. Vous devrez ensuite réaliser une première version de ce site correspondant à ses attentes, en utilisant uniquement HTML et CSS. 
+Proposer une solution technique adaptée (hébergement, nom de domaine, outils)
 
-Livrables
-1. Le cahier des charges du projet au format PDF (optionnel)
-2. Le ou les maquettes graphiques (de type wireframe)
-3. Un dossier contenant le code source complet du projet (HTML/CSS et autres fi chiers nécessaires).
+Créer des maquettes (wireframes)
+
+Développer une interface utilisateur type desktop (HTML/CSS)
+
+📝 Fonctionnalités demandées par la cliente
+Pages et contenus
+
+Page d’accueil
+Présentation du festival, dates, lieu, ambiance générale.
+
+Page “Films”
+Listing des films projetés chaque soir (titre, réalisateur, affiche/image, synopsis bref).
+
+Page “Actualités”
+Articles ou encarts simples permettant de communiquer les dernières infos.
+
+Page “Pré-inscription”
+Formulaire permettant au public d’indiquer leur présence pour une date donnée.
+
+Page “Contact” (optionnelle)
+Coordonnées basiques de l’association.
+
+Exigences techniques
+
+Site statique en HTML/CSS uniquement
+
+Charte graphique simple et élégante, adaptée à un festival culturel
+
+Affichage desktop prioritaire
+
+Structure du site organisée et facile à mettre à jour
+
+🛠️ Propositions techniques
+Nom de domaine
+
+Recommandation : .org
+➜ Plus adapté pour une association, crédible et professionnel
+
+Alternatives : .com si la cliente veut une portée internationale
+
+Hébergement
+
+Recommandation :
+
+Netlify, Vercel ou GitHub Pages
+➜ Gratuit, fiable, simple à maintenir et idéal pour un site statique
+
+Outils utilisés
+
+HTML5 : structure du contenu
+
+CSS3 : mise en page et charte graphique
+
+Figma / Balsamiq : création des wireframes (maquettes)
+
+Git / GitHub : versioning et livraison du site
+
+📂 Structure du projet
+/projet-festival-plein-air
+│
+├── index.html
+├── films.html
+├── actualites.html
+├── preinscription.html
+├── contact.html (optionnel)
+│
+├── /assets
+│   ├── images/
+│   ├── css/
+│   │   └── style.css
+│   └── fonts/
+│
+└── README.md
+
+🖼️ Wireframes
+
+Les wireframes fournissent une première vue d’ensemble du site :
+
+Page d’accueil
+
+Page films
+
+Page actualités
+
+Page pré-inscription
+
+(Fournir les fichiers Figma/Balsamiq ici)
+
+🚀 Installation & utilisation
+
+Cloner le projet :
+
+git clone https://github.com/votre-repo.git
+
+
+Ouvrir le fichier index.html dans un navigateur.
+
+Aucun backend requis — site 100% statique.
+
+📧 Informations cliente
+
+Organisatrice : Emilie Durand
+Association : Les Films de Plein Air
+Festival : du 1 au 10 juillet
+Lieu : Parc de la Butte, Paris
+
+📄 Livrables
+
+Cahier des charges (optionnel)
+
+Wireframes
+
+Code source complet (HTML/CSS)
+
+README (ce document)
